@@ -9,7 +9,11 @@ image:
   repository: demo-java-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
+<<<<<<< HEAD
   tag: V1.0
+=======
+  tag: V1.0 
+>>>>>>> 105f9d3 (Fix: use my own docker image in helm chart)
 
 appName: demo-java-app
 
