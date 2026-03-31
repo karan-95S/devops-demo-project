@@ -1,13 +1,12 @@
 # Default values for app.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-
 replicaCount: 2
 
 image:
-  repository: linux1karan/demo-java-app
+  githubID: linux1karan
+  repository: demo-java-app
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
   tag: V1.0
 
 appName: demo-java-app
